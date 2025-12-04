@@ -107,7 +107,7 @@ int main() {
     }
 
     // hitung TAT dan WT
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {    
         p[i].TAT = p[i].CT - p[i].AT;
         p[i].WT = p[i].TAT - p[i].BT;
     }
